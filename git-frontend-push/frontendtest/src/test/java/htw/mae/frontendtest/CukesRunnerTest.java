@@ -11,7 +11,7 @@ import cucumber.api.junit.Cucumber;
  */
 @RunWith(Cucumber.class)
 @Cucumber.Options(
-		format={"pretty", "html:target/cucumber"},
+		format={"pretty", "html:target/cucumber", "json:target/cucumber.json"},
 		features="src/test/resources")
 public class CukesRunnerTest {
 
